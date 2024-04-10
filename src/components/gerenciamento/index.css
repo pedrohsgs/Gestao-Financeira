@@ -1,0 +1,48 @@
+
+.gerenciamento {
+    font-family: Arial, sans-serif;
+    color: #000000;
+    background-color: #C7FFED;
+}
+  
+.gerenciamento h1 {
+    margin-bottom: 10vw;
+    text-align: center;
+}
+
+.gerenciamento div{
+    margin-bottom: 3VW;
+    text-align: center;
+}
+  
+.gerenciamento label {
+    display: block;
+    margin-bottom: 1vw;
+
+}
+  
+.gerenciamento input {
+    width: 50%;
+    padding: 1vw;
+    border: 2px solid #015958;
+    border-radius: 20px;
+    background-color: #C7FFED;
+    color: #000000;
+    
+}
+  
+.gerenciamento button {
+    background-color: #299D91;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+  
+.gerenciamento button:hover {
+    background-color: #000000;
+}
+  
+
+  

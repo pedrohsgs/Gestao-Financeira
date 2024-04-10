@@ -1,0 +1,262 @@
+.home{
+    background-color: #C7FFED;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+
+}
+
+.info1 {
+    margin-top: 4VW;
+    background-image: url(public/img/image1.png);
+    width: 50%;
+    height: 30vw;
+    margin-left: 40%;
+}
+
+.info1 p {
+    font-size: 24px;
+    color: #2F534F;
+    text-align: center;
+    max-width: 50%;
+    margin-left: -10vw;
+
+}
+
+.info1 h1{
+    font-size: 40px;
+    max-width: 50%;
+    text-align: center;
+    margin-left: -10vw;
+    margin-top: 9vw;
+    color: #015958;
+}
+
+.info2 {
+    margin-top: 4VW;
+    background-image: url(public/img/image3.png);
+    background-size: cover; /* Para cobrir toda a área do corpo */
+    max-width: 49.9%;
+    height: 30vw;
+    margin-right: 40%;
+}
+
+
+.info2 h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 15vw;
+    margin-left: 30vw;
+    margin-right: -30vw;
+    color: #015958;
+    max-width: 100%;
+}
+
+.planos{
+    margin-top: 4vw;
+    text-align: center;
+    background-image: url(public/img/image2.png);
+    background-size: cover;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 64px;
+    color: #015958;
+
+}
+
+.planosE{
+    display: flex;
+    margin-left: 5%;
+}
+
+
+/* Plano Gratuito */
+
+.gratuito{
+
+    background-color: #015958;
+    width: 20vw;
+    height: 38vw;
+    text-align: center;
+    border-radius: 2vw;
+    border: 3px solid black;     
+}
+
+
+.gratuito h1{
+
+    color: #C7FFED;
+    font-size: 3vw;
+    padding-top: 2vw;
+    text-align: left;
+    margin-left: 2vw;
+    
+}
+
+.gratuito p{
+
+    color: white;
+    padding: 1vw 2vw 2vw 2vw;
+    font-size: 20px;
+}
+
+.gratuito button{
+
+    background-color: #0CABA8;
+    color : white;
+    font-weight: bold;
+    border: none;
+}
+
+/* Plano Basico */
+
+.basico{
+
+    background-color: #015958;
+    width: 20vw;
+    height: 38vw;
+    text-align: center;
+    border-radius: 2vw;
+    border: 3px solid black;   
+    margin-left: 3vw;  
+}
+
+
+.basico h1{
+
+    color: #C7FFED;
+    font-size: 3vw;
+    padding-top: 2vw;
+    text-align: left;
+    margin-left: 2vw;
+    
+}
+
+.basico h2{
+    color: #C7FFED;
+    font-size: 1.5vw;
+    text-align: left;
+    margin-left: 2vw;
+    margin-top: -2vw;
+}
+
+.basico p{
+
+    color: white;
+    padding: 1vw 2vw 4.5vw 2vw;
+    font-size: 20px;
+}
+
+.basico button{
+
+    background-color: #0CABA8;
+    color : white;
+    font-weight: bold;
+    border: none;
+}
+
+.planosD {
+    display: flex;
+    justify-content: right;
+    margin-right: 5%;
+    margin-top: -10vw;
+}
+
+/* Plano Premium */
+
+.premium{
+
+    background-color: #015958;
+    width: 20vw;
+    height: 38vw;
+    text-align: center;
+    border-radius: 2vw;
+    border: 3px solid black;
+    margin-right: 3vw;     
+}
+
+
+.premium h1{
+
+    color: #C7FFED;
+    font-size: 2.7vw;
+    padding-top: 2vw;
+    text-align: left;
+    margin-left: 2vw;
+    
+}
+
+.premium h2{
+    color: #C7FFED;
+    font-size: 1.5vw;
+    text-align: left;
+    margin-left: 2vw;
+    margin-top: -2vw;
+}
+
+.premium p{
+
+    color: white;
+    padding: 1vw 2vw 4.5vw 2vw;
+    font-size: 20px;
+}
+
+.premium button{
+
+    background-color: #0CABA8;
+    color : white;
+    font-weight: bold;
+    border: none;
+}
+
+/* Plano Empresarial */
+
+.empresarial{
+
+    background-color: #015958;
+    width: 20vw;
+    height: 38vw;
+    text-align: center;
+    border-radius: 2vw;
+    border: 3px solid black;     
+}
+
+
+.empresarial h1{
+
+    color: #C7FFED;
+    font-size: 2.7vw;
+    padding-top: 2vw;
+    text-align: left;
+    margin-left: 2vw;
+    
+}
+
+.empresarial h2{
+    color: #C7FFED;
+    font-size: 1.5vw;
+    text-align: left;
+    margin-left: 2vw;
+    margin-top: -2vw;
+}
+
+.empresarial p{
+
+    color: white;
+    padding: 1vw 2vw 2vw 2vw;
+    font-size: 20px;
+}
+
+.empresarial button{
+
+    background-color: #0CABA8;
+    color : white;
+    font-weight: bold;
+    border: none;
+}
+
