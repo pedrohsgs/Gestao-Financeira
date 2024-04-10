@@ -1,3 +1,45 @@
-.financas{
-    background-color: aqua;
+/* index.css */
+*{
+    background-color: #C7FFED;
+}
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 8vw;
+    
+    border-radius: 30px;
+}
+
+.financas h1{
+    
+    text-align: center;
+}
+
+.financas h2{
+
+    font-size: 1.5vw;
+
+}
+.informações {
+    border: 2px solid #299D91;
+    border-radius: 20px;
+    
+}
+
+.informações ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.informações li {
+    
+    padding: 2vw 2vw 2vw 2vw;
+
+}
+
+.data,
+.descricao,
+.valor {
+    margin-right: 1vw;
+    margin-left: 1vw;
 }

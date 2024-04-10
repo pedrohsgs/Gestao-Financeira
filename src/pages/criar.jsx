@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import '../components/criar/index.css';
+
 
 export function Criar () {
   const [name, setName] = useState('');

@@ -6,8 +6,10 @@
 }
   
 .gerenciamento h1 {
-    margin-bottom: 10vw;
+    margin-bottom: 5vw;
     text-align: center;
+    margin-top: 5vw;
+    font-size: 2vw;
 }
 
 .gerenciamento div{
@@ -22,7 +24,7 @@
 }
   
 .gerenciamento input {
-    width: 50%;
+    width:30%;
     padding: 1vw;
     border: 2px solid #015958;
     border-radius: 20px;
@@ -35,14 +37,11 @@
     background-color: #299D91;
     color: black;
     border: none;
+    font-size: 2vw;
     border-radius: 20px;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-  
-.gerenciamento button:hover {
-    background-color: #000000;
-}
-  
+    padding: 1vw 20px;
+    margin-top: 5vw;
+    margin: 0 auto;
 
+}
   

@@ -14,8 +14,9 @@ export function Login () {
             <button type="submit">Login</button>
           </form>
           <div className="options">
-            <p>Ou</p>
-            <button className="google-button">G Continuar com Google</button>
+            
+            <button className="google-button">Continuar com Google</button>
+
             <button>Criar uma conta</button>
           </div>
           <p>Esqueceu a Senha?</p>

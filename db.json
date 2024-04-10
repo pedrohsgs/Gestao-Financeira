@@ -1,1 +1,32 @@
-{}
+{
+  "Financas": [
+    {
+      "id": "1",
+      "data": "20/05/2021",
+      "categoria": "Salario",
+      "descricao": "Mesada",
+      "valor": "R$400.00"
+    },
+    {
+      "id": "0050",
+      "data": "3222-02-23",
+      "categoria": "DEsgraca",
+      "descricao": "porra",
+      "valor": "219900"
+    },
+    {
+      "id": "7d97",
+      "data": "",
+      "categoria": "",
+      "descricao": "",
+      "valor": ""
+    },
+    {
+      "id": "983f",
+      "data": "",
+      "categoria": "",
+      "descricao": "",
+      "valor": ""
+    }
+  ]
+}

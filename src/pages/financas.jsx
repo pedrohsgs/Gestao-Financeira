@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import '../components/financas/index.css';
+import axios from 'axios';
 
 export function Financas({ transactions }) {
   // Função para calcular o saldo total
@@ -7,18 +8,33 @@ export function Financas({ transactions }) {
     return transactions.reduce((total, transaction) => total + transaction.amount, 0);
   }; 
 
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    axios.get("http://localhost:7000/Financas")
+    .then(response => {
+      console.log(response.data);
+      setData(response.data);
+    });
+  },);
   return (
 
-    <main>
+    <main className='container'>
         
-        <div className="financas">
-      <h1>Administração de Finanças</h1>
-      <div>
-        <h2>Transações</h2>
-        <ul>
-          {transactions.map((transaction) => (
+      <div className="financas">
+      <h1>Finanças</h1><h2>Entradas</h2>
+      <div className='informações'> 
+      
+        <ul >
+         
+          
+          {data.map((transaction) => (
             <li key={transaction}>
-              <strong>Descrição:</strong> {transaction.description}, <strong>Valor:</strong> ${transaction.amount}, <strong>Data:</strong> {transaction.date}
+
+              <strong className='data'>Data:</strong>  {transaction.data}
+              <strong className='descricao'>Descrição:</strong> {transaction.descricao}, 
+              <strong className='valor'>Valor:</strong> {transaction.valor},
+               
             </li>
           ))}
         </ul>

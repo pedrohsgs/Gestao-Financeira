@@ -1,4 +1,4 @@
-.login-container {
+.create-account-container{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,6 +13,7 @@ form {
 
 form label{
     font-size: 1.5vw;
+
 }
 
 label {
